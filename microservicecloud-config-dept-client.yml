@@ -16,13 +16,13 @@ spring:
     username: root
     password: 123456 
     dbcp2: 
-      min-idle:  5 
-      initial-size:  5 
-      max-total:  5 
-      max-wait-millis:  200
+      min-idle: 5 
+      initial-size: 5 
+      max-total: 5 
+      max-wait-millis: 200
 mybatis: 
   config-location: classpath:mybatis/mybatis.cfg.xml 
-  type-aliases-package: com.atguigu.springcloud.entities 
+  type-aliases-package: com.bdqn.springcloud.entities 
   mapper-locations: 
     - classpath:mybatis/mapper/**/*.xml
 eureka: 
@@ -34,9 +34,9 @@ eureka:
     prefer-ip-address: true 
 info: 
   app.name: bdqn-microservicecloud-springcloudconfig01 
-  company.name:  www.bdqn.com 
-  build.artifactId:  $project.artifactId$ 
-  build.version:  $project.version$
+  company.name: www.bdqn.com 
+  build.artifactId: $project.artifactId$
+  build.version: $project.version$
 ---
 server: 
   port: 8001
@@ -51,13 +51,13 @@ spring:
     username: root
     password: 123456 
     dbcp2: 
-      min-idle:  5 
-      initial-size:  5 
-      max-total:  5 
-      max-wait-millis:  200
+      min-idle: 5 
+      initial-size: 5 
+      max-total: 5 
+      max-wait-millis: 200
 mybatis: 
   config-location: classpath:mybatis/mybatis.cfg.xml 
-  type-aliases-package: com.atguigu.springcloud.entities 
+  type-aliases-package: com.bdqn.springcloud.entities 
   mapper-locations: 
     - classpath:mybatis/mapper/**/*.xml
 eureka: 
